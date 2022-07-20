@@ -5,7 +5,7 @@ This is a coding challenge for unit 6 of the UT Austin Coding Bootcamp. The goal
 ![alt text](./assets/images/screenshot.jpg)
 
 ## How to Use This Project
-1) Go to  
+1) Go to  https://adamwagh512.github.io/weather-dashboard/
 2) Enter the city you want the weather for in the text box
 3) click the blue submit button on the left side of the page to submit your request
 4) The weather should appear on the right side of the page
