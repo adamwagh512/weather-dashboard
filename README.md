@@ -1,7 +1,7 @@
 # Weather Dashboard
 
 ## Project Description
-This is a coding challenge for unit 6 of the UT Austin Coding Bootcamp. The goal of this project was to make a weather dashboard that would give the current weather conditions of a given city and also 
+This is a coding challenge for unit 6 of the UT Austin Coding Bootcamp. The goal of this project was to make a weather dashboard that would give the current weather conditions of a given city and also a 5 day forecast
 ![alt text](./assets/images/screenshot.jpg)
 
 ## How to Use This Project
@@ -13,9 +13,9 @@ This is a coding challenge for unit 6 of the UT Austin Coding Bootcamp. The goal
 
 ## Credits
 Technologies Used: 
-    Bulma
-    Jquery
-    Moment.js
+    <br>Bulma
+    <br>Jquery
+    <br>Moment.js
 
 Special Thanks to TAs Ian and Diem for all of their invaluable help during this project. I would also like to thank my tutor Jack Linhart for helping me better understand some of the code and giving me some resources that really helped me finish this project. 
 
