@@ -1,0 +1,15 @@
+#header {
+    font-size: 49px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+#search {
+    background-color: lightblue;
+}
+
+.is-link {
+    margin-bottom: 10px;
+}
+

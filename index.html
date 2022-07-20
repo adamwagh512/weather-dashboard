@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bulma Style Sheet -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <!-- My CSS Style Sheet -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Weather Dashboard</title>
+</head>
+<body>
+    <div id="header" class="columns">
+        <div class="column">
+            <h1> Weather Dashboard</h1>
+        </div>
+    </div>
+    <div class="columns">
+        <div id="search" class="column is-one-quarter">
+            <div>
+                <textarea id="city" class="textarea is-link" placeholder="Please enter city name"></textarea>
+                <br>
+                <button id="submitBtn" class="button is-fullwidth is-info">Submit</button>
+                <br>
+            </div>
+            <div id="buttonsContainer">
+                <button id="rs1" class="button is-fullwidth is-link">Search 1</button>
+                <button id="rs2" class="button is-fullwidth is-link">Search 2</button>
+                <button id="rs3" class="button is-fullwidth is-link">Search 3</button>
+                <button id="rs4" class="button is-fullwidth is-link">Search 4</button>
+            </div>
+        </div>
+        <div class="column">
+            <div class="current-weather">
+                <div class="card">
+                    
+                    <div class="card-content">
+                      <div class="media">
+                        <div class="media-left">
+                          <figure class="image is-48x48">
+                            <img id="icon" src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+                          </figure>
+                        </div>
+                        <div class="media-content">
+                          <p id="cityName" class="title is-4">City name</p>
+                          <p id= 'todayDate'class="subtitle is-6">Date</p>
+                        </div>
+                      </div>
+                  
+                      <div class="content">
+                        <p id="temp">Temp: </p>
+                        <p id="wind">Wind: </p>
+                        <p id="humidity">Humidity: </p>
+                        <p id="uv">UV Index: </p>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <br>
+    <div class="column">
+        <div class="5day is-flex">
+            <div class="columns">
+                <div class="card">
+                    <div class="media-content has-text-centered">
+                        <p id='dateday1' class="title is-4">Date</p>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-left">
+                                <figure class="image is-55x55">
+                                <img id="i1" src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <p id="t1">Temp: </p>
+                        <p id="w1">Wind: </p>
+                        <p id="h1">Humidity: </p>
+                    </div>
+                    </div>
+                    <div class="card">
+                        <div class="media-content has-text-centered">
+                            <p id="dateday2" class="title is-4">Date</p>
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-left">
+                                    <figure class="image is-55x55">
+                                    <img id="i2" src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p id="t2">Temp: </p>
+                            <p id="w2">Wind: </p>
+                            <p id="h2">Humidity: </p>
+                        </div>
+
+                    </div>
+                    <div class="card">
+                        <div class="media-content has-text-centered">
+                            <p id="dateday3" class="title is-4">Date</p>
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-left">
+                                    <figure class="image is-55x55">
+                                    <img id="i3" src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p id="t3">Temp: </p>
+                            <p id="w3">Wind: </p>
+                            <p id="h3">Humidity: </p>
+                        </div>
+
+                    </div>
+                    <div class="card">
+                        <div class="media-content has-text-centered">
+                            <p id="dateday4" class="title is-4">Date</p>
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-left">
+                                    <figure class="image is-55x55">
+                                    <img id="i4" src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p id="t4">Temp: </p>
+                            <p id="w4">Wind: </p>
+                            <p id="h4">Humidity: </p>
+                        </div>
+
+                    </div>
+                    <div class="card">
+                        <div class="media-content has-text-centered">
+                            <p id="dateday5" class="title is-4">Date</p>
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-left">
+                                    <figure class="image is-55x55">
+                                    <img id="i5" src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p id="t5">Temp: </p>
+                            <p id="w5">Wind: </p>
+                            <p id="h5">Humidity: </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Moment.js script sheet  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
+    <!-- JQuery Script Sheet -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- My JS Script sheet -->
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
